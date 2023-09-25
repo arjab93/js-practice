@@ -39,4 +39,7 @@ console.log(personName);
 const isAbove18 = confirm("Are you above 18 years of age?");
 console.log(isAbove18);
 
-alert(personName, isAbove18);
+const isOfAge = isAbove18 ? " above " : " below ";
+const text = "My name is" + personName + " and I am" + isOfAge + "18 years.";
+
+alert(text);
